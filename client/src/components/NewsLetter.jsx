@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Newsletter = () => {
+const NewsLetter = () => {
   return (
     <div className='flex flex-col items-center justify-center text-center space-y-2 my-32 '>
       <h1 className='md:text-4xl text-2xl font-semibold'>Never Miss a Blog!</h1>
@@ -17,4 +17,4 @@ const Newsletter = () => {
   )
 }
 
-export default Newsletter
+export default NewsLetter
