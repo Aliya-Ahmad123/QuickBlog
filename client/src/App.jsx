@@ -7,10 +7,11 @@ import Dashboard from './pages/Admin/Dashboard'
 import AddBlog from './pages/Admin/AddBlog'
 import ListBlog from './pages/Admin/ListBlog'
 import Comments from './pages/Admin/Comments'
-import Login from './components/admin/Login'
+
 import 'quill/dist/quill.snow.css'
 import {Toaster} from 'react-hot-toast'
 import { useAppContext } from '../context/AppContext'
+import Login from './components/Admin/Login'
 
 const App = () => {
 
